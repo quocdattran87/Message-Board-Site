@@ -1,0 +1,23 @@
+.message-pic {
+  overflow: hidden;
+  min-width: 15vh;
+  min-height: 15vh;
+  max-width: 15vh;
+  max-height: 15vh;
+  background: none;
+  object-fit: cover;
+}
+
+.chart-container {
+  display: flex;
+  padding-left: 4vh;
+  padding-bottom: 0vh;
+}
+
+.pie-chart {
+  padding-left: 40px;
+  min-width: 20vh;
+  min-height: 20vh;
+  max-width: 20vh;
+  max-height: 20vh;
+}

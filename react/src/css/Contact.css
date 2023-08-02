@@ -1,0 +1,51 @@
+.Contact-Page {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    height: 88vh;
+}
+
+.contact-heading {
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    color: black;
+}
+
+.contact-top {
+    height:24vh;
+    background-color: rgb(238, 175, 86);
+    position: relative;
+    width: 100%;
+}
+
+.contact-bottom {
+    display: flex;
+    height:86vh;
+    width: 100%;
+}
+
+.contact-image {
+    width: 50%;
+    object-fit: cover;
+}
+
+.contact-right {
+    position: relative;
+    background-color: white;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-details {
+    position: relative;
+    top: 50%;
+    transform: translateY(-75%);
+}

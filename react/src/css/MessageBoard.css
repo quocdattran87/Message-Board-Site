@@ -1,0 +1,125 @@
+.MessageBoard {
+    min-height: 88vh;
+    width: 100%;
+    align-items: center;
+
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    background-color: rgb(211, 186, 153);
+   
+}
+
+.message-time-label {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.reply-time-label {
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.reply-username {
+    font-size: 0.8rem;
+    color: rgb(35, 94, 182);
+}
+
+.delete-button {
+    background-color: rgb(238, 81, 81);
+}
+
+.border {
+    background-color: rgb(67, 63, 63);
+    color: white;
+    border-radius: 34px;
+}
+
+.message-border {
+    background-color: rgb(231, 230, 195);
+    color: black;
+    border-radius: 10px;
+}
+
+.text-primary1 {
+    color: aquamarine;
+}
+
+.reply-border {
+    background-color: rgb(200, 233, 240);
+    color: black;
+    border-radius: 10px;
+}
+
+.reply-border-2 {
+  background-color: rgb(213, 243, 218);
+  color: black;
+  border-radius: 10px;
+}
+
+.delete-message {
+    border:none;
+    cursor: pointer;
+    background: none;
+    color: red;
+  }
+  
+  .edit-message {
+    border:none;
+    cursor: pointer;
+    background: none;
+    color: rgb(98, 231, 127);
+    padding-top: 3px;
+  }
+
+  .owner-buttons {
+    position: relative;
+    top:-14px;
+  }
+
+  .line-break {
+    position: relative;
+    top:10px;
+  }
+
+  .form-group2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+  }
+
+  .quill {
+    background-color: white;
+  }
+
+  .file-upload {
+    padding-left: 20px;
+  }
+
+  .message-pic {
+    overflow: hidden;
+    min-width: 27vh;
+    min-height: 27vh;
+    max-width: 27vh;
+    max-height: 27vh;
+    background: none;
+    object-fit: cover;
+  }
+
+  .dislike-message {
+    border:none;
+    cursor: pointer;
+    background: none;
+    color: red;
+    padding-right: 20px;
+  }
+  
+  .like-message {
+    border:none;
+    cursor: pointer;
+    background: none;
+    color: rgb(98, 231, 127);
+    padding-top: 1px;
+    padding-right: 20px;
+  }
