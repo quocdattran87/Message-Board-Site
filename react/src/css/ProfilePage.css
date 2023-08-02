@@ -1,0 +1,140 @@
+.ProfilePage{
+  min-height: 88vh;
+  width: 100%;
+  align-items: center;
+
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  background-color: rgb(213, 192, 232);
+
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.vl {
+  border-left: 5px solid black;
+}
+
+.following-list {
+  background-color: transparent;
+  overflow: hidden;
+  height: 50%;
+  width: 50%;
+}
+
+.profile-pic {
+  overflow: hidden;
+  min-width: 27vh;
+  min-height: 27vh;
+  max-width: 27vh;
+  max-height: 27vh;
+  background: none;
+  border-radius: 50%;
+  /* To not skew the image */
+  object-fit: cover;
+}
+
+.profile-information {
+  overflow: hidden;
+  text-align: left;
+  padding-left: 4vh;
+  padding-top: 6vh;
+  width: 80vh;
+  line-height: 30px;
+}
+
+.message-border-2 {
+  background-color: white;
+  color: black;
+}
+
+.text-primary2 {
+  color: aquamarine;
+  font-size: 200%;
+}
+
+.delete-profile {
+  border:none;
+  cursor: pointer;
+  background-color: white;
+  color: red;
+  padding-right: 10vh;
+  background: none;
+}
+
+.edit-profile {
+  border:none;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(98, 231, 127);
+  padding-top: 3px;
+  padding-right: 20px;
+  background: none;
+}
+
+.following {
+  border:none;
+  cursor: pointer;
+  background-color: white;
+  color: grey;
+  padding-top: 3px;
+  padding-right: 20px;
+  background: none;
+}
+
+.email-text {
+  color: grey;
+}
+
+.edit-cross {
+  border:none;
+  cursor: pointer;
+  color: red;
+  background: none;
+}
+
+.edit-tick {
+  border:none;
+  cursor: pointer;
+  color: rgb(98, 231, 127);
+  padding-top: 1px;
+  padding-right: 15px;
+  background: none;
+}
+
+.edit-profile-left {
+  overflow: hidden;
+  width: 34vh;
+}
+
+.edit-profile-information {
+  overflow: hidden;
+  text-align: left;
+  padding-left: 4vh;
+  padding-top: 6vh;
+  width: 50vh;
+  line-height: 30px;
+}
+
+.two-factor-enabled-text {
+  color: grey;
+  font-size: 64%;
+}
+
+.qr {
+  overflow: hidden;
+  min-width: 27vh;
+  min-height: 27vh;
+  max-width: 27vh;
+  max-height: 27vh;
+  background: none;
+  /* To not skew the image */
+  object-fit: cover;
+}

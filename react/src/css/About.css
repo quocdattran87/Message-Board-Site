@@ -1,0 +1,52 @@
+.About-Page {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    height:88vh;
+}
+
+.about-heading {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    color: black;
+}
+
+.about-top {
+    height:40vh;
+    background-color: rgb(197, 104, 85);
+    position: relative;
+    width: 100%;
+}
+
+.about-bottom {
+    height:60vh;
+    background-color: white;
+    width: 100%;
+}
+
+img.about-image {
+    width: 40em;
+    height: 25em;
+    background-position: right top;
+    position: absolute;
+    bottom: -17em; left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+}
+
+.about-text {
+    position: absolute;
+    bottom:-130%;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}

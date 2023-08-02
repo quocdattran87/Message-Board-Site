@@ -1,0 +1,91 @@
+
+.nav-bar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 6vh;
+}
+
+li.nav-bar-item {
+    display: inline;
+    float: left;
+    text-align: center;
+    height: 6vh;
+}
+
+button.nav-button {
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 25px 16px; */
+    padding: 20px 14px;
+    background:none;
+    border:none;
+    cursor: pointer;
+}
+
+.logout-button {
+    display: block;
+    background-color: rgb(80, 33, 33);
+    color:white;
+    text-align: center;
+    padding: 20px 14px;
+    /* background:none; */
+    border:none;
+    cursor: pointer;
+}
+
+
+
+button.home-button {
+    font-weight: bold;
+    font-size: 220%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 15px;
+    text-decoration: none;
+    background:none;
+    border:none;
+    cursor: pointer;
+}
+
+.lan-logo {
+    padding-top: 16px;
+    padding-left: 17px;
+    padding-right: 8px;
+    background:none;
+    border:none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li button.nav-button:hover {
+    background-color: rgb(40, 39, 39);
+}
+li button.nav-button:focus{
+    background-color: rgb(0, 0, 0);
+}
+
+li button.logout-button:hover {
+    background-color: rgb(104, 26, 26);
+}
+
+
+button.slogan-button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 5px;
+    background:none;
+    border:none;
+    cursor:text;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.active-button {
+    display: block;
+    background-color: rgb(0, 0, 0);
+}

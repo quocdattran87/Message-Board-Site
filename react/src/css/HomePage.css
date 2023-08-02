@@ -1,0 +1,39 @@
+.Home-Page {
+  text-align: center;
+  background-color: blanchedalmond;
+
+  height: 88vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.home-image {
+  height: 88vh;
+  width: 100%;
+  object-fit: cover;
+  position:relative;
+
+
+}
+
+.home-text {
+  position: absolute;
+  font-size: 140%;
+  color: black;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 59%;
+}
+
+.home-loggedin-text {
+  position: absolute;
+  font-size: 180%;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 59%;
+}
