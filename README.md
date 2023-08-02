@@ -1,4 +1,3 @@
-# Message-Board-Site
 ## Third Year University Assignment
 
 A website with user creation and login, profile updates, messaging with two layer replies. Messages require the ability to send images. All data is stored in tables built by Sequelize ORM. GET/PUT/POST/DELETE are done using custom queries.
