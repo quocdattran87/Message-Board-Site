@@ -1,7 +1,7 @@
 # Message-Board-Site
 ## Third Year University Assignment
 
-A website with user creation and login, profile updates, messaging with two layer replies. Messages require the ability to send images. All data is stored in custom built tables. INSERT/UPDATE/DELETE are done using custom queries written in Sequelize ORM.
+A website with user creation and login, profile updates, messaging with two layer replies. Messages require the ability to send images. All data is stored in tables built by Sequelize ORM. GET/PUT/POST/DELETE are done using custom queries.
 
 - 'React' directory contains frontend code.
 - 'Express' directory contains middle/back end code. Requires a MySQL database to be spun up with correct end point, username, db, and password configured.
