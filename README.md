@@ -22,5 +22,5 @@ Inside any react/frontend folder:
 - npm install --save-dev crypto-browserify stream-browserify assert stream-http https-browserify os-browserify url buffer process
 - npm install react-router-dom@6 axios react-quill --save 
 
-Inside and express folder:
+Inside any express folder:
 - npm install express sequelize mysql2 cors argon2 --save 
