@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 // --- Constants ----------------------------------------------------------------------------------
-const API_HOST = 'http://localhost:4000'
+const API_HOST = 'http://localhost:4002'
 const USER_KEY = 'loggedInUser'
 
 // --- Admin ---------------------------------------------------------------------------------------
